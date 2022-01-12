@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Love+Ya+Like+A+Sister|Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Oswald|Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+
+	display: flex;
+	background-color: #fafafa;
+	font-family: "Roboto", cursive;
+}
+
+form {
+	margin-top: 5%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+}
+
+#profile {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	width: 100%;
+
+	background-blend-mode: multiply;
+	background-color: #425679;
+	background-size: cover;
+	transition: all 1s ease-in-out;
+}
+
+.btn {
+	color: #0099CC;
+	background: transparent;
+	border: 1px solid #0099CC;
+	border-radius: 3px;
+	max-width: 250px;
+	width: 50%;
+	margin: 1%;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-transform: uppercase;
+}
+
+
+.btn:hover {
+    background-color: #0099CC;
+    color: white;
+ }
+
+.btn a {
+  	text-decoration: none;
+  	color: #0099CC;
+}
+
+.btn a:hover {
+    color: white;
+}
+
+h1 {
+	margin-top: 1%;
+	font-family: "Oswald", cursive;
+	font-size: 2em;
+	color: #dfe8ed;
+}
+
+.msg {
+	border: 2px solid #f5cb42;
+	border-radius: 3px;
+	padding: 7px;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer {
+   position: absolute;
+   left: 0px;
+   bottom: 10px;
+   height:30px;
+   width:100%;
+}
+
+footer span {
+	color: red;
+}

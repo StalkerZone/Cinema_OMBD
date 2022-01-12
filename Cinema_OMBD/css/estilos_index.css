@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Love+Ya+Like+A+Sister|Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Oswald|Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+
+#logo {
+	width: 50px;
+	height: 140px;
+	color: #87888a;
+	cursor: pointer;
+	writing-mode: vertical-lr;
+	font-family: 'Oswald', sans-serif;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#logo:hover {
+	color: #e8e9eb;
+	cursor: pointer;
+}
+
+#logo span {
+	margin-left: 600px;
+	font-size: 35px;
+	margin-top: 5px;
+}
+
+#about {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	width: 100%;
+
+	background-blend-mode: multiply;
+	background-color: #425679;
+	background-size: cover;
+	transition: all 1s ease-in-out;
+}
+
+.fixed {
+	z-index: 5000;
+}
+
+.fixed #logo {
+	color: #ccc;
+	opacity: 0.7;
+}
+
+.fixed #logo:hover {
+	color: #ffffff;
+
+}
+
+/*  HEADER - Fin  */
+
+/* PAGINA PRINCIPAL */
+
+#top {
+	width: 100%;
+	min-height: 170px;
+	background-blend-mode: multiply;
+	background-color: #425679;
+	background-size: cover;
+	transition: all 1s ease-in-out;
+}
+
+/* CAMBIO DE PANTALLA */
+
+@media (min-width: 1001px) {
+
+	#signup a {
+		font-size: 0.8em;
+	}
+
+	#about {
+		margin-top: 3%;
+	}
+
+	#about a {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+
+	#signup a {
+		font-size: 0.8em;
+	}
+
+	#about {
+		margin-top: 3%;
+	}
+
+	#about a {
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 650px) {
+
+	#signup a {
+		font-size: 0.5em;
+	}
+
+	#about {
+		margin-top: 5%;
+	}
+
+	#about a {
+		font-size: 1em;
+	}
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.btn {
+	color: #0099CC;
+	background: transparent;
+	border: 1px solid #0099CC;
+	border-radius: 3px;
+	max-width: 250px;
+	width: 50%;
+	margin: 1%;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+
+
+.btn:hover {
+    background-color: #0099CC;
+    color: white;
+ }
+
+.user {
+	background-color: #ddd;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 0.8em;
+}
+
+footer {
+   position: absolute;
+   left: 0px;
+   bottom: 10px;
+   height:30px;
+   width:100%;
+}
+
+footer span {
+	color: red;
+}
